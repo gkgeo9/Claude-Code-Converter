@@ -32,7 +32,7 @@ This Python script converts Svelte, JavaScript, and HTML files in a specified di
 
 1. Run the script:
    ```
-   python directory_to_pdf_converter.py
+   python claude_converter.py
    ```
 
 2. When prompted, enter the full path of the input directory containing your Svelte, JS, and HTML files.
