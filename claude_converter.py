@@ -48,7 +48,7 @@ def convert_file_to_pdf(file_path, output_dir, input_dir):
 def convert_directory_to_pdfs(input_dir, output_dir):
     for root, _, files in os.walk(input_dir):
         for file in files:
-            if file.endswith(('.svelte', '.js', '.html')):
+            if file.endswith(('.svelte', '.js', '.html')): # change the file types here to include you language. Ex. ('.tsx')
                 file_path = os.path.join(root, file)
                 convert_file_to_pdf(file_path, output_dir, input_dir)
 
